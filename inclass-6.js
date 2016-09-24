@@ -10,7 +10,10 @@ function mouseMoved() {
   }
 }
 function mouseMoved() {
-  ellipse(mouseX,mouseY,80,70);
+  ellipse(mouseX,mouseY,85,70);
+    ellipse(mouseX-17,mouseY-7,15,8);
+      ellipse(mouseX+17,mouseY-7,15,8);
+      arc(mouseX,mouseY+7,30,20,0,PI,OPEN);
   // prevent default
   return false;
 }
