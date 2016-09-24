@@ -1,11 +1,12 @@
 function setup() {
-  createCanvas(200, 200);
-  background(255);
+  createCanvas(500, 500);
+  background(180);
 }  
   function draw(){
     stroke(0);
-triangle(10,60,60,10,110,60);
-rect(CENTER);
-rect(10,60,100,100);
-rect(70,120,20,40)
-}
+    var s=0;
+    while(s<470){
+      line(s+20,480,480-s,20);
+      s=s+10;
+    }
+  }
