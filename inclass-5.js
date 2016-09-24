@@ -7,6 +7,7 @@ function draw(){
   var a=random(255);
   var b=random(255);
   var c=random(255);
+  colorMode(HSB,255,0,0);
   stroke(a,b,c);
   fill(a,b,c);
   var z=random(80);
