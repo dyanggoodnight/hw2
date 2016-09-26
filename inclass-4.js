@@ -4,6 +4,7 @@ function setup() {
 }
 
 function draw(){
+  for(var i=0; i<1000; i=i+1){
   var a=random(255);
   var b=random(255);
   var c=random(255);
@@ -15,4 +16,6 @@ function draw(){
   var y=random(800);
   ellipseMode(CENTER);
   ellipse(x,y,z,z);
+  noLoop();
+}
 }
